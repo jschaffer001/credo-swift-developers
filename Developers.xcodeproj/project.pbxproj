@@ -12,6 +12,7 @@
 		AC9D7C032A0BF7DB008C2351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9D7C022A0BF7DB008C2351 /* Assets.xcassets */; };
 		AC9D7C062A0BF7DB008C2351 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9D7C052A0BF7DB008C2351 /* Preview Assets.xcassets */; };
 		AC9D7C152A0C5338008C2351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9D7C142A0C5338008C2351 /* LaunchScreen.storyboard */; };
+		AC9D7C172A0D9A9D008C2351 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D7C162A0D9A9D008C2351 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AC9D7C052A0BF7DB008C2351 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC9D7C132A0C2038008C2351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AC9D7C142A0C5338008C2351 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC9D7C162A0D9A9D008C2351 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				AC9D7C002A0BF7DA008C2351 /* ContentView.swift */,
+				AC9D7C162A0D9A9D008C2351 /* CardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC9D7C012A0BF7DA008C2351 /* ContentView.swift in Sources */,
+				AC9D7C172A0D9A9D008C2351 /* CardView.swift in Sources */,
 				AC9D7BFF2A0BF7DA008C2351 /* DevelopersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
