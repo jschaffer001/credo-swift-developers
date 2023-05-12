@@ -13,6 +13,8 @@
 		AC9D7C062A0BF7DB008C2351 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9D7C052A0BF7DB008C2351 /* Preview Assets.xcassets */; };
 		AC9D7C152A0C5338008C2351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9D7C142A0C5338008C2351 /* LaunchScreen.storyboard */; };
 		AC9D7C172A0D9A9D008C2351 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D7C162A0D9A9D008C2351 /* CardView.swift */; };
+		AC9D7C1B2A0EEC8D008C2351 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D7C1A2A0EEC8D008C2351 /* CardModel.swift */; };
+		AC9D7C1D2A0EEDF3008C2351 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D7C1C2A0EEDF3008C2351 /* CardData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AC9D7C132A0C2038008C2351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AC9D7C142A0C5338008C2351 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC9D7C162A0D9A9D008C2351 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		AC9D7C1A2A0EEC8D008C2351 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		AC9D7C1C2A0EEDF3008C2351 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		AC9D7C0E2A0C1E23008C2351 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AC9D7C1A2A0EEC8D008C2351 /* CardModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -113,6 +118,7 @@
 		AC9D7C102A0C1E40008C2351 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				AC9D7C1C2A0EEDF3008C2351 /* CardData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -202,7 +208,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC9D7C1D2A0EEDF3008C2351 /* CardData.swift in Sources */,
 				AC9D7C012A0BF7DA008C2351 /* ContentView.swift in Sources */,
+				AC9D7C1B2A0EEC8D008C2351 /* CardModel.swift in Sources */,
 				AC9D7C172A0D9A9D008C2351 /* CardView.swift in Sources */,
 				AC9D7BFF2A0BF7DA008C2351 /* DevelopersApp.swift in Sources */,
 			);

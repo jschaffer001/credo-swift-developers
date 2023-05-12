@@ -12,6 +12,7 @@ import SwiftUI
 struct ContentView: View {
     // MARK: - PROPERTY
     
+    var cards: [Card] = cardData
     
     // MARK: - FUNCTION
     
@@ -20,9 +21,9 @@ struct ContentView: View {
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(alignment: .center, spacing: 20) {
-                ForEach(0 ..< 6) { item in
-                    CardView()
-                }
+                ForEach(cards) { item in
+                    CardView(card: item)
+                } //: LOOP
             } //: HSTACK
             .padding(30)
         } //: SCROLL
@@ -32,7 +33,7 @@ struct ContentView: View {
 // MARK: - PREVIEW
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(cards: cardData)
             .previewDevice("iPhone 14 Pro")
     }
 }
